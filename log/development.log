@@ -632,3 +632,17 @@ Processing by EquipmentController#index as HTML
 Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.6ms | Allocations: 17564)
 
 
+Started GET "/equipment" for ::1 at 2019-08-11 15:23:26 -0600
+Processing by EquipmentController#index as HTML
+  [1m[36mEquipment Load (0.6ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 20.6ms | ActiveRecord: 0.6ms | Allocations: 17563)
+
+
+Started GET "/users" for ::1 at 2019-08-11 15:23:31 -0600
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 27.0ms | ActiveRecord: 5.4ms | Allocations: 9174)
+
+
