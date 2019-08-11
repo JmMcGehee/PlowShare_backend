@@ -6,4 +6,4 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Equipment.create(title: "Test", img: "https://tinyurl.com/y23nu3bh", owner_id: "Fuck, I made this a string")
+# Equipment.create(title: "Test", img: "https://tinyurl.com/y23nu3bh", owner_id: "Fuck, I made this a string")
