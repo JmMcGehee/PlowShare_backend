@@ -8,6 +8,7 @@
 
 # Equipment.create(title: "Test", img: "https://tinyurl.com/y23nu3bh", owner_id: "Fuck, I made this a string")
 
+
 5.times do
   Equipment.create(
     title: Faker::Vehicle.make_and_model,
@@ -15,7 +16,7 @@
     make: Faker::Vehicle.make,
     model: Faker::Vehicle.model,
     year: Faker::Vehicle.year,
-    rate: Faker::Number.number(digits: 2),
+    rate: 50,
     location: Faker::Address.full_address,
     owner_id: 1
   )
@@ -28,7 +29,7 @@ end
     make: Faker::Vehicle.make,
     model: Faker::Vehicle.model,
     year: Faker::Vehicle.year,
-    rate: Faker::Number.number(digits: 2),
+    rate: 60,
     location: Faker::Address.full_address,
     owner_id: 2
   )
@@ -41,7 +42,7 @@ end
     make: Faker::Vehicle.make,
     model: Faker::Vehicle.model,
     year: Faker::Vehicle.year,
-    rate: Faker::Number.number(digits: 2),
+    rate: 70,
     location: Faker::Address.full_address,
     owner_id: 3
   )
@@ -54,7 +55,7 @@ end
     make: Faker::Vehicle.make,
     model: Faker::Vehicle.model,
     year: Faker::Vehicle.year,
-    rate: Faker::Number.number(digits: 2),
+    rate: 80,
     location: Faker::Address.full_address,
     owner_id: 4
   )
@@ -67,7 +68,7 @@ end
     make: Faker::Vehicle.make,
     model: Faker::Vehicle.model,
     year: Faker::Vehicle.year,
-    rate: Faker::Number.number(digits: 2),
+    rate: 90,
     location: Faker::Address.full_address,
     owner_id: 5
   )
@@ -77,7 +78,7 @@ end
   User.create(
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
-    phone: Faker::Number.number(digits: 10),
+    phone: 999,
     profile_img: Faker::Avatar.image(slug: "my-own-slug", size: "50x50"),
   )
 end
