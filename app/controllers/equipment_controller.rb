@@ -46,6 +46,6 @@ class EquipmentController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def equipment_params
-      params.require(:equipment).permit(:title, :img, :owner_id)
+      params.require(:equipment).permit(:title, :img, :owner_id, :make, :model, :year, :rate, :location)
     end
 end
