@@ -2250,3 +2250,379 @@ Processing by EquipmentController#index as */*
 Completed 200 OK in 92ms (Views: 85.6ms | ActiveRecord: 1.9ms | Allocations: 18219)
 
 
+Started GET "/equipment" for ::1 at 2019-08-15 21:17:46 -0600
+  [1m[35m (5.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (4.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 97ms (Views: 76.0ms | ActiveRecord: 16.6ms | Allocations: 26744)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:24:17 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (4.0ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 245ms (Views: 227.8ms | ActiveRecord: 4.0ms | Allocations: 18229)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:24:47 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.7ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.7ms | Allocations: 18132)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:25:26 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.8ms | Allocations: 18132)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:26:27 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.3ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 1.3ms | Allocations: 18133)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:28:49 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 185ms (Views: 173.9ms | ActiveRecord: 1.8ms | Allocations: 18117)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:32:09 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.0ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 1.0ms | Allocations: 18118)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:35:50 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.8ms | Allocations: 18118)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:40:11 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (2.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 55ms (Views: 53.0ms | ActiveRecord: 2.1ms | Allocations: 18117)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:41:04 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.7ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 34ms (Views: 33.0ms | ActiveRecord: 0.7ms | Allocations: 18117)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:46:24 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 1.1ms | Allocations: 18118)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:53:50 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.9ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 1.9ms | Allocations: 18216)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:54:24 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.6ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 75ms (Views: 68.6ms | ActiveRecord: 1.6ms | Allocations: 18119)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:54:59 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (8.0ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 60ms (Views: 51.6ms | ActiveRecord: 8.0ms | Allocations: 18118)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:55:35 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.7ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.7ms | Allocations: 18117)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:55:57 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.4ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.4ms | Allocations: 18117)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 21:58:31 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.0ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 38.5ms | ActiveRecord: 1.0ms | Allocations: 18118)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:02:22 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.8ms | Allocations: 18119)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:04:05 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.3ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 33.7ms | ActiveRecord: 1.3ms | Allocations: 18118)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:12:39 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.5ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 1.5ms | Allocations: 18217)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:13:28 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.6ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.6ms | Allocations: 18117)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:16:47 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.8ms | Allocations: 18117)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:24:37 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.3ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 192ms (Views: 162.5ms | ActiveRecord: 1.3ms | Allocations: 18219)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:25:24 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.8ms | Allocations: 18118)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:25:53 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 1.1ms | Allocations: 18120)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:25:55 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.6ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 1.6ms | Allocations: 18117)
+
+
+Started PUT "/equipment/4" for ::1 at 2019-08-15 22:30:02 -0600
+Processing by EquipmentController#update as HTML
+  Parameters: {"title"=>"Success", "img"=>"https://tinyurl.com/y28wumj8", "make"=>"Me", "model"=>"A new one", "year"=>"2019", "location"=>"Right here, baby", "rate"=>"1000", "id"=>"4", "equipment"=>{"title"=>"Success", "img"=>"https://tinyurl.com/y28wumj8", "make"=>"Me", "model"=>"A new one", "year"=>"2019", "rate"=>"1000", "location"=>"Right here, baby"}}
+  [1m[36mEquipment Load (0.9ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment" WHERE "equipment"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/equipment_controller.rb:44:in `set_equipment'
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/equipment_controller.rb:29:in `update'
+  [1m[36mEquipment Update (8.1ms)[0m  [1m[33mUPDATE "equipment" SET "title" = $1, "img" = $2, "make" = $3, "model" = $4, "year" = $5, "rate" = $6, "location" = $7, "updated_at" = $8 WHERE "equipment"."id" = $9[0m  [["title", "Success"], ["img", "https://tinyurl.com/y28wumj8"], ["make", "Me"], ["model", "A new one"], ["year", 2019], ["rate", 1000], ["location", "Right here, baby"], ["updated_at", "2019-08-16 04:30:02.351339"], ["id", 4]]
+  ↳ app/controllers/equipment_controller.rb:29:in `update'
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/equipment_controller.rb:29:in `update'
+Completed 200 OK in 47ms (Views: 0.4ms | ActiveRecord: 10.8ms | Allocations: 6747)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:30:02 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.7ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.7ms | Allocations: 18108)
+
+
+Started PUT "/equipment/4" for ::1 at 2019-08-15 22:30:11 -0600
+Processing by EquipmentController#update as HTML
+  Parameters: {"title"=>"Success", "img"=>"https://tinyurl.com/y28wumj8", "make"=>"Me", "model"=>"A new one", "year"=>"2019", "location"=>"Right here, baby", "rate"=>"1000", "id"=>"4", "equipment"=>{"title"=>"Success", "img"=>"https://tinyurl.com/y28wumj8", "make"=>"Me", "model"=>"A new one", "year"=>"2019", "rate"=>"1000", "location"=>"Right here, baby"}}
+  [1m[36mEquipment Load (0.3ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment" WHERE "equipment"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/equipment_controller.rb:44:in `set_equipment'
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms | Allocations: 1147)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:30:11 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.4ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.4ms | Allocations: 18111)
+
+
+Started GET "/equipment" for ::1 at 2019-08-15 22:31:18 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.4ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 28ms (Views: 26.8ms | ActiveRecord: 0.4ms | Allocations: 18109)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:24:33 -0600
+  [1m[35m (3.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (7.0ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 71ms (Views: 50.9ms | ActiveRecord: 16.5ms | Allocations: 26735)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:31:44 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (2.4ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 70ms (Views: 66.1ms | ActiveRecord: 2.4ms | Allocations: 18220)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:40:47 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.3ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 1.3ms | Allocations: 18218)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:41:15 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (2.0ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 40ms (Views: 36.9ms | ActiveRecord: 2.0ms | Allocations: 18124)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:41:39 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 1.1ms | Allocations: 18123)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:42:07 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (1.1ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 1.1ms | Allocations: 18108)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:42:32 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 67ms (Views: 66.1ms | ActiveRecord: 0.8ms | Allocations: 18110)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:42:45 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.4ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.4ms | Allocations: 18109)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:43:02 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.8ms | Allocations: 18108)
+
+
+Started PUT "/equipment/5" for ::1 at 2019-08-16 21:44:55 -0600
+Processing by EquipmentController#update as HTML
+  Parameters: {"title"=>"Ford F150", "img"=>"https://robohash.org/{:slug=>\"my-own-slug\", :size=>\"50x50\"}.png?size=300x300&set=set1", "make"=>"BMW", "model"=>"Altima", "year"=>2019, "location"=>"Apt. 109 742 Kerry Meadows, Port Natosha, NV 66194-8855", "rate"=>50, "id"=>"5", "equipment"=>{"title"=>"Ford F150", "img"=>"https://robohash.org/{:slug=>\"my-own-slug\", :size=>\"50x50\"}.png?size=300x300&set=set1", "make"=>"BMW", "model"=>"Altima", "year"=>2019, "rate"=>50, "location"=>"Apt. 109 742 Kerry Meadows, Port Natosha, NV 66194-8855"}}
+  [1m[36mEquipment Load (0.9ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment" WHERE "equipment"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/equipment_controller.rb:44:in `set_equipment'
+Completed 200 OK in 31ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 4631)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:44:55 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.6ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.6ms | Allocations: 18109)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:45:28 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.8ms | Allocations: 18108)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 21:45:54 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.7ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 54ms (Views: 52.7ms | ActiveRecord: 0.7ms | Allocations: 18110)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 22:05:20 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (2.5ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 64ms (Views: 58.1ms | ActiveRecord: 2.5ms | Allocations: 18208)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 22:07:06 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.8ms | Allocations: 18108)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 22:07:16 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.8ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.8ms | Allocations: 18108)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 22:07:49 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.9ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.9ms | Allocations: 18109)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 22:09:42 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.5ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.5ms | Allocations: 18111)
+
+
+Started PUT "/equipment/5" for ::1 at 2019-08-16 22:11:06 -0600
+Processing by EquipmentController#update as HTML
+  Parameters: {"title"=>"Refactored update ", "img"=>"const updatedListing = {       title: this.state.listing.title,       img: this.state.listing.img,       make: this.state.listing.make,       model: this.state.listing.model,       year: this.state.listing.year,       location: this.state.listing.location,       rate: this.state.listing.rate", "make"=>"ME", "model"=>"2", "year"=>2019, "location"=>"here", "rate"=>"666", "id"=>"5", "equipment"=>{"id"=>"5", "title"=>"Refactored update ", "img"=>"const updatedListing = {       title: this.state.listing.title,       img: this.state.listing.img,       make: this.state.listing.make,       model: this.state.listing.model,       year: this.state.listing.year,       location: this.state.listing.location,       rate: this.state.listing.rate", "make"=>"ME", "model"=>"2", "year"=>2019, "rate"=>"666", "location"=>"here"}}
+  [1m[36mEquipment Load (0.6ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment" WHERE "equipment"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/equipment_controller.rb:44:in `set_equipment'
+[31mUnpermitted parameter: :id[0m
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/equipment_controller.rb:29:in `update'
+  [1m[36mEquipment Update (4.2ms)[0m  [1m[33mUPDATE "equipment" SET "title" = $1, "img" = $2, "make" = $3, "model" = $4, "rate" = $5, "location" = $6, "updated_at" = $7 WHERE "equipment"."id" = $8[0m  [["title", "Refactored update "], ["img", "const updatedListing = {       title: this.state.listing.title,       img: this.state.listing.img,       make: this.state.listing.make,       model: this.state.listing.model,       year: this.state.listing.year,       location: this.state.listing.location,       rate: this.state.listing.rate"], ["make", "ME"], ["model", "2"], ["rate", 666], ["location", "here"], ["updated_at", "2019-08-17 04:11:06.913697"], ["id", 5]]
+  ↳ app/controllers/equipment_controller.rb:29:in `update'
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/equipment_controller.rb:29:in `update'
+Completed 200 OK in 22ms (Views: 0.7ms | ActiveRecord: 6.6ms | Allocations: 3334)
+
+
+Started GET "/equipment" for ::1 at 2019-08-16 22:11:06 -0600
+Processing by EquipmentController#index as */*
+  [1m[36mEquipment Load (0.7ms)[0m  [1m[34mSELECT "equipment".* FROM "equipment"[0m
+  ↳ app/controllers/equipment_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.7ms | Allocations: 18100)
+
+
